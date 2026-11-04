@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { background: #FAFAF8; color: #25282B; }
+:focus-visible { outline: 2px solid #14283D; outline-offset: 3px; }
+.rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
+.rise-2 { animation-delay: .15s; } .rise-3 { animation-delay: .3s; }
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .rise { animation: none; } }
