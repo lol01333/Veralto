@@ -21,9 +21,13 @@ export default function Contact() {
     if (Object.keys(err).length) return;
     setBusy(true);
     try {
-      await fetch(site.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d) });
-    } catch {}
-    setBusy(false); setSent(true);
+      const res = await fetch(site.formEndpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d) });
+      if (!res.ok) throw new Error();
+      setSent(true);
+    } catch {
+      alert("No pudimos enviar tu solicitud. Intenta de nuevo o escríbenos por WhatsApp.");
+    }
+    setBusy(false);
   }
 
   const info = [
