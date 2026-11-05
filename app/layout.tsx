@@ -8,7 +8,7 @@ const sans = Instrument_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: "VERALTO Soluciones Médicas | Clínica privada en Culiacán, Sinaloa",
+  title: "ARTHEA Soluciones Médicas | Clínica privada en Culiacán, Sinaloa",
   description: "Medicina especializada en Culiacán: valoración médica, evaluación integral, salud metabólica y seguimiento profesional. Agenda tu valoración.",
   keywords: ["clínica privada Culiacán", "medicina metabólica Culiacán", "valoración médica Culiacán", "médico especialista Sinaloa"],
   openGraph: { title: site.fullName, description: "Medicina especializada. Atención con propósito.", locale: "es_MX", type: "website" },

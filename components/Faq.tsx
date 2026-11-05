@@ -2,11 +2,11 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   ["¿Cómo puedo agendar una valoración?", "Puedes solicitar tu cita desde el formulario de contacto o por WhatsApp. Nuestro equipo te confirmará disponibilidad de horario."],
-  ["¿En qué consiste la primera consulta?", "Es una valoración médica donde el médico conversa contigo, revisa tus antecedentes y define si son necesarios estudios o seguimiento. No se prometen resultados específicos."],
+  ["¿En qué consiste la primera consulta?", "Es una valoración médica donde el médico conversa contigo, revisa tus antecedentes y define si son necesarios estudios o seguimiento."],
   ["¿Qué estudios podrían solicitarme?", "Dependen de tu evaluación individual. Solo se solicitan estudios cuando el médico los considera pertinentes y se realizan con aliados especializados."],
   ["¿Todos los pacientes pueden recibir tratamiento farmacológico?", "No. La indicación de cualquier medicamento corresponde exclusivamente al médico, tras la valoración, y puede no ser adecuada para todos los pacientes."],
   ["¿Cómo funciona el seguimiento médico?", "El médico define revisiones periódicas para evaluar tu evolución y ajustar el plan de atención cuando sea necesario."],
-  ["¿Dónde se encuentra VERALTO?", "Nos encontramos en Culiacán, Sinaloa, México. La dirección completa se indica en la sección de contacto."],
+  ["¿Dónde se encuentra Arthea?", "Nos encontramos en Culiacán, Sinaloa, México. La dirección completa se indica en la sección de contacto."],
 ];
 
 export default function Faq() {

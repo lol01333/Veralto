@@ -12,7 +12,7 @@ export default function About() {
       <div className="grid gap-12 lg:grid-cols-12">
         <h2 className="font-serif text-4xl leading-tight text-navy lg:col-span-5 lg:text-5xl">Una nueva perspectiva de la atención médica.</h2>
         <p className="max-w-xl leading-loose text-ink/80 lg:col-span-6 lg:col-start-7">
-          VERALTO Soluciones Médicas nace con el propósito de ofrecer atención especializada basada en la evaluación individual, el conocimiento científico y el seguimiento profesional. Nuestro compromiso es proporcionar una experiencia médica transparente, responsable y centrada en cada paciente.
+          ARTHEA Soluciones Médicas nace con el propósito de ofrecer atención especializada basada en la evaluación individual, el conocimiento científico y el seguimiento profesional. Nuestro compromiso es proporcionar una experiencia médica transparente, responsable y centrada en cada paciente.
         </p>
       </div>
       <ul className="mt-20 grid border-t border-navy/20 md:grid-cols-3">

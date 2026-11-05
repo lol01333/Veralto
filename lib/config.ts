@@ -1,10 +1,10 @@
 // EDITA AQUÍ los datos reales. Deja "" para ocultar un campo. No hay datos inventados.
 export const site = {
-  name: "VERALTO",
-  fullName: "VERALTO Soluciones Médicas",
+  name: "ARTHEA",
+  fullName: "ARTHEA Soluciones Médicas",
   url: "https://www.example.com", // ← tu dominio
   whatsapp: "", // formato internacional sin "+", ej. 521667XXXXXXX
-  whatsappMessage: "Hola, me gustaría agendar una valoración en VERALTO.",
+  whatsappMessage: "Hola, me gustaría agendar una valoración en ARTHEA.",
   phone: "",
   email: "",
   address: "", // dirección completa cuando esté disponible
