@@ -1,0 +1,29 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+body { background: #F5F4F0; color: #0C1B2A; }
+h1, h2, h3 { text-wrap: balance; }
+:focus-visible { outline: 2px solid #2F6B5A; outline-offset: 3px; }
+::selection { background: #BFD8CC; }
+
+@layer components {
+  .label { @apply font-mono text-[11px] uppercase tracking-[0.16em]; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium transition duration-300; }
+  .btn-ink { @apply btn bg-ink text-paper hover:bg-sage; }
+  .btn-line { @apply btn border border-ink/25 text-ink hover:border-ink hover:bg-ink hover:text-paper; }
+  .btn-mint { @apply btn bg-mint text-ink hover:bg-paper; }
+  .wrap { @apply mx-auto w-full max-w-page px-5 sm:px-8; }
+  .chip { @apply rounded-full border px-4 py-2.5 text-sm transition; }
+}
+
+/* Entrada suave: el contenido es visible en reposo; solo se anima si el usuario lo permite. */
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
+  .rise-2 { animation-delay: .12s; } .rise-3 { animation-delay: .24s; } .rise-4 { animation-delay: .36s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  .trace path { stroke-dasharray: 1600; stroke-dashoffset: 1600; animation: draw 2.6s .3s cubic-bezier(.6,.1,.2,1) forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .pulse-dot { animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(47,107,90,.35); } 50% { box-shadow: 0 0 0 6px rgba(47,107,90,0); } }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
