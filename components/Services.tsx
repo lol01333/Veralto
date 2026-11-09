@@ -1,10 +1,10 @@
 import { Activity, Stethoscope, Scale, Pill, Microscope, ArrowRight } from "lucide-react";
 
 const items = [
-  [Activity, "Medicina metabólica", "Valoración de la salud metabólica desde una perspectiva médica integral y basada en evidencia."],
+  [Activity, "Medicina metabólica", "Valoración de la salud metabólica desde una perspectiva médica integral, así como tratamientos personalizados."],
   [Stethoscope, "Evaluación médica integral", "Revisión de antecedentes, hábitos y factores de riesgo para orientar las decisiones clínicas."],
   [Scale, "Control de peso y salud metabólica", "Planes de atención individualizados definidos por el médico tras una evaluación previa."],
-  [Pill, "Seguimiento farmacológico", "Cuando el médico lo indica, vigilancia clínica del tratamiento. La indicación es exclusiva del médico y no aplica a todos los pacientes."],
+  [Pill, "Seguimiento farmacológico", "Nuestros especialistas se encargan de brindarte la mejor atención en tu proceso, los procedimientos varian según el paciente."],
   [Microscope, "Estudios clínicos y diagnóstico", "Estudios complementarios realizados mediante aliados especializados cuando son pertinentes."],
 ] as const;
 

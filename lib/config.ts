@@ -17,5 +17,5 @@ export const waLink = () =>
   site.whatsapp ? `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}` : "#contacto";
 
 export const doctor = {
-  photo: "", name: "", specialty: "", license: "", certifications: [] as string[],
+  photo: "", name: "Magda Luz Rizo Ocampo", specialty: "Medicina Estetica, Longevidad y Obesidad", license: "9791236", certifications: [] as string[],
 };
